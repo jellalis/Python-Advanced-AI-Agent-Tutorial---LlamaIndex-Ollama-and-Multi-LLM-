@@ -75,7 +75,7 @@ while(prompt:=input('Enter a prompt(q to quit :'))!='q':
 
 
     print('code generated')
-    print(cleaned_json['code'])
+    print(cleaned_json['code'])#
 
     print('n\nDescritption',cleaned_json['description'])
     filename=cleaned_json['filename']
@@ -84,7 +84,7 @@ while(prompt:=input('Enter a prompt(q to quit :'))!='q':
             f.write(cleaned_json['code'])
             print('saved file',filename)
     except:
-        print('error saving file')
+        print('error saving file')#
 
 
 
